@@ -37,6 +37,6 @@ class RouteServiceProvider extends ServiceProvider
                 ->group(base_path('routes/web.php'));
         });
 
-        Route::pattern('tweetId', '[0-9+]');
+        Route::pattern('tweetId', '[0-9]+');
     }
 }
